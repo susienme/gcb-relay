@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+LOUHI_REF_SHA="${LOUHI_REF_SHA:-$(git rev-parse HEAD)}"
+
 echo "============================"
 echo "Build Seriously..."
 sleep 10
