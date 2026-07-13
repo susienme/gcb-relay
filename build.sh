@@ -5,7 +5,6 @@ LOUHI_REF_SHA="${LOUHI_REF_SHA:-$(git rev-parse HEAD)}"
 
 echo "============================"
 echo "Build Seriously..."
-sleep 10
 echo "SUCCESS"
 echo SHORT_SHA $SHORT_SHA
 echo OVERWRITE_REF_SHA $OVERWRITE_REF_SHA
