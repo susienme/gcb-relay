@@ -2,7 +2,7 @@
 set -e
 
 echo LOUHI_REF_SHA $LOUHI_REF_SHA
-echo COMMIT_SHA $COMMIT_SHA
+echo MY_COMMIT_SHA $MY_COMMIT_SHA
 
 echo "============================"
 echo "Build Seriously..."
