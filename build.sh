@@ -4,6 +4,8 @@ set -e
 echo LOUHI_REF_SHA $LOUHI_REF_SHA
 LOUHI_REF_SHA="${LOUHI_REF_SHA:-$(git rev-parse HEAD)}"
 
+echo COMMIT_SHA $COMMIT_SHA
+
 echo "============================"
 echo "Build Seriously..."
 echo "SUCCESS"
