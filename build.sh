@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+echo WS_DIR $WS_DIR
+export WS_DIR="${WS_DIR:-.}"
+echo WS_DIR $WS_DIR
+
 echo Let me see
 echo LOUHI_REF_SHA $LOUHI_REF_SHA
 echo _LOUHI_REF_SHA $_LOUHI_REF_SHA
