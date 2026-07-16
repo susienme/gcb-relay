@@ -5,6 +5,9 @@ echo "LET'S SEE"
 echo LOUHI_REF_SHA $LOUHI_REF_SHA
 echo MY_COMMIT_SHA $MY_COMMIT_SHA
 
+LOUHI_REF_SHA="${LOUHI_REF_SHA:-$(git rev-parse HEAD)}"
+echo FINAL: LOUHI_REF_SHA $LOUHI_REF_SHA
+
 echo "============================"
 echo "Build Seriously..."
 echo "SUCCESS"
