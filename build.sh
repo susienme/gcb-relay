@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+echo "LET'S SEE"
 echo LOUHI_REF_SHA $LOUHI_REF_SHA
 echo MY_COMMIT_SHA $MY_COMMIT_SHA
 
