@@ -3,6 +3,7 @@ set -e
 
 echo Let me see
 echo LOUHI_REF_SHA $LOUHI_REF_SHA
+echo _LOUHI_REF_SHA $_LOUHI_REF_SHA
 echo MY_COMMIT_SHA $MY_COMMIT_SHA
 
 LOUHI_REF_SHA="${LOUHI_REF_SHA:-$(git rev-parse HEAD)}"
