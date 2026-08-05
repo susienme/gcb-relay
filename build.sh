@@ -27,5 +27,3 @@ echo LOUHI_REF_SHA $LOUHI_REF_SHA
 echo a $a
 echo "============================"
 
-#Unconditionally retun an error :)
-exit 1
